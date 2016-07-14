@@ -1,0 +1,5 @@
+netstat -tnpa | grep 'ESTABLISHED.*sshd'
+ps auxwww | grep sshd:
+watch -n 1 date
+http://stackoverflow.com/questions/20817013/restore-all-mysql-databases-from-individual-files
+for i in {1..100}; do echo http://www.example.com/${i}.jpg; done

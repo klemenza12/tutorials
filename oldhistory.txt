@@ -1,0 +1,302 @@
+    1  yum update
+    2  yum upgrade
+    3  yum search torrent
+    4  yum search ktorrent
+    5  init 1
+    6  yum search cinammon
+    7  yum search ac3
+    8  links
+    9  ifconfig
+   10  yum search cinammon
+   11  ping www.google.com
+   12  iptables -F
+   13  yum groupinstall "Server with GUI" -y
+   14  yum install http://dl.fedoraproject.org/pub/epel/7/x86_64/e/epel-release-7-5.noarch.rpm -y
+   15  yum search cinnamon
+   16  yum install cinnamon -y
+   17  ln -sf /lib/systemd/system/runlevel5.target /etc/systemd/system/default.target
+   18  yum search torrent
+   19  yum install ktorrent.x86_64
+   20  init 6
+   21  yum install -y cinnamon
+   22  systemctl isolate graphical.target
+   23  yum -y install lightdm
+   24  systemctl isolate graphical.target
+   25  reboot 6
+   26  yum install -y cinnamon
+   27  systemctl isolate graphical.target
+   28  yum -y install lightdm
+   29  systemctl isolate graphical.target
+   30  reboot 6
+   31  yum groupinstall "X Window system" -y
+   32  yum install cjs cinnamon-menus cinnamon-control-center cinnamon-translations cinnamon-settings-daemon cinnamon-screensaver nemo cinnamon-session muffin cinnamon-desktop cinnamon -y
+   33  echo "exec /usr/bin/cinnamon-session" >> ~/.xinitrc
+   34  startx
+   35  yum -y install http://li.nux.ro/download/nux/dextop/el7/x86_64/nux-dextop-release-0-5.el7.nux.noarch.rpm
+   36  yum -y install http://linuxdownload.adobe.com/linux/x86_64/adobe-release-x86_64-1.0-1.noarch.rpm
+   37  yum install flash-plugin
+   38  yum install icedtea-web
+   39  yum install vlc smplayer ffmpeg HandBrake-{gui,cli}
+   40  yum install libdvdcss gstreamer{,1}-plugins-ugly gstreamer-plugins-bad-nonfree gstreamer1-plugins-bad-freeworld
+   41  yum install vlc
+   42  vlc
+   43  su klemenza
+   44  ls
+   45  cd
+   46  ls
+   47  cd Downloads/
+   48  ls
+   49  cd ..
+   50  ls
+   51  cd Desktop/
+   52  ls
+   53  cd Movies/
+   54  ls
+   55  vm Stolichani.v.poveche.S10E02.WEB-DL.x264-SLSS.mp4  /home/klemenza/Desktop/movies/Stolochani.mp4
+   56  mv Stolichani.v.poveche.S10E02.WEB-DL.x264-SLSS.mp4  /home/klemenza/Desktop/movies/Stolochani.mp4
+   57  yum serach chrome
+   58  yum search chrome
+   59  yum search chromium
+   60  rpm -Uvh http://li.nux.ro/download/nux/dextop/el7/x86_64/nux-dextop-release-0-1.el7.nux.noarch.rpm
+   61  yum update
+   62  yum install ffmpeg
+   63  yum install gstreamer*
+   64  ls
+   65   ls -h
+   66  ls -a
+   67  pwd
+   68  ls ~
+   69  ls /
+   70  ls .
+   71  set classpath=./bin;
+   72  ./lib/*;
+   73  set classpath=./lib/*;
+   74  ./lib/*;
+   75  java org.testing.TestNG testing.xml
+   76  ls -l
+   77* chmod test
+   78  java org.testng.TestNG testing.xml
+   79  java org.testng.TestNG testng.xml
+   80  cd ..
+   81  ls
+   82  chmod 777 JenkinsDemo/
+   83  chmod 777 JenkinsDemo/*
+   84  cd JenkinsDemo/
+   85  ls -l
+   86  set classpath=./lib/*;
+   87  set classpath=./bin;
+   88  ./lib/*;
+   89  cd ./lib/
+   90  ls
+   91  chmod 777 *
+   92  ls -l
+   93  cd ..
+   94  ./lib/*;
+   95  java org.testng.TestNG testng.xml
+   96  java  
+   97  pwd
+   98  set classpath=/home/klemenza/workspace/JenkinsDemo
+   99  set classpath=/home/klemenza/workspace/JenkinsDemo/lib/*;/home/klemenza/workspace/JenkinsDemo
+  100  set classpath=/home/klemenza/workspace/JenkinsDemo/lib/*;/home/klemenza/workspace/JenkinsDemo/bin;
+  101  export CLASSPATH=$CLASSPATH:/home/klemenza/workspace/JenkinsDemo/lib/*:/home/klemenza/workspace/JenkinsDemo/bin
+  102  java org.testng.TestNG testng.xml
+  103  nano run
+  104  cat run 
+  105  bash run 
+  106  nano run
+  107  bash run 
+  108  chmod 777 run 
+  109  run
+  110  sh run 
+  111  cd ..
+  112  ls
+  113  cd ..
+  114  cd
+  115  ls
+  116  cd ..
+  117  ls
+  118  cd /usr/
+  119  ls
+  120  cd /lib/
+  121  ls
+  122  cd jvm/
+  123  ls
+  124  cd ..
+  125  ls
+  126  cd java/
+  127  ls
+  128  cd ..
+  129  find . | grep jdk
+  130  ls
+  131  cd java-1.6.0/
+  132  ls
+  133  ls -a
+  134  cd ..
+  135  ls
+  136  yum search jdk
+  137  ls
+  138  cd /usr/
+  139  ls
+  140  pwd
+  141  mkdir java
+  142  ls
+  143  chmod 777 java/
+  144  ls
+  145  ls -l
+  146  cd
+  147  cd ..
+  148  cd home/
+  149  cd klemenza/
+  150  ls
+  151  ls -l
+  152  ls -l workspace/
+  153  /home/jenkins
+  154  whereis jenkins
+  155  ls /usr/lib/jenkins/
+  156  find 
+  157  find | grep jenkins
+  158  find / | grep jenkins
+  159  ps afux |grep jenkins
+  160  nano /etc/sysconfig/jenkins 
+  161  /etc/init.d/jenkins reload
+  162  chown -R root:root /var/lib/jenkins/
+  163  chown -R root:root /var/cache/jenkins/
+  164* chown -R root:root /var/log/jenkins
+  165  /etc/init.d/jenkins reload
+  166  chown -R root:root /var/lib/jenkins
+  167  chown -R root:root /var/log/jenkins
+  168  chown -R root:root /var/cache/jenkins
+  169  less /etc/passwd
+  170  service jenkins reload
+  171  nano /etc/sysconfig/jenkins 
+  172  service jenkins reload
+  173  chown -R jenkins /var/cache/jenkins
+  174  chown -R jenkins /var/lib/jenkins
+  175  chown -R jenkins /var/log/jenkins
+  176  service jenkins reload
+  177  chown -R jenkins /home/klemenza/workspace/
+  178  tail -10 /etc/passwd
+  179  cat  /etc/passwd |grep jenkins
+  180  ls /home/klemenza/workspace/
+  181  ls 0l /home/klemenza/workspace/
+  182  ls -l /home/klemenza/workspace/
+  183  service jenkins reload
+  184  useradd jenkins
+  185  chown -R jenkins /home/klemenza/workspace/JenkinsDemo/
+  186  ls
+  187  cd /home/klemenza/
+  188  ls
+  189  cd workspace/
+  190  ls -l
+  191  service jenkins reload
+  192  ls
+  193  cd JenkinsDemo/
+  194  ls
+  195  run
+  196  sh run
+  197  pwd
+  198  java -jar jenkins-cli.jar -s http://localhost:8080/ who-am-i
+  199  ls
+  200  mv run run.sh
+  201  ls
+  202  bash run.sh
+  203  ls
+  204  ls -l
+  205  ls
+  206  cd ..
+  207  ls
+  208  cd ..
+  209  ls
+  210  cd Do
+  211  cd Downloads/
+  212  ls
+  213  nano test.sh
+  214  chmod 777 test.sh 
+  215  bash test.sh 
+  216  pwd
+  217  w
+  218  whoami
+  219  groups 
+  220  sudoers
+  221  cat /etc/sudoers
+  222  cat /etc/sudoers |grep jenkins
+  223  cat /etc/sudoers |grep jenkinsnannano
+  224  nano /etc/sudoers
+  225  service jenins restart
+  226  service jenkins restart
+  227  nano /etc/sudoers
+  228  ls
+  229  cd ..
+  230  ls
+  231  cd ..
+  232  ls
+  233  cd klemenza/
+  234  ls
+  235  cd workspace/
+  236  ls
+  237  cd ..
+  238  ls -l
+  239  chmode 777 workspace/
+  240  chmod 777 workspace/
+  241  ls -l
+  242  cd workspace/
+  243  ls
+  244  cd JenkinsDemo/
+  245  pwd
+  246  top
+  247  passwd jenkins
+  248  cd
+  249  cd ..
+  250  ls
+  251  cd var/lib/jenkins/
+  252  ls
+  253  cd workspace/
+  254  ls
+  255  cd JenkinsDemo/
+  256  ls
+  257  ln -s /home/klemenza/workspace/JenkinsDemo/run.sh  test
+  258  ls
+  259  ls -l
+  260  test
+  261  bash test
+  262  ls
+  263  rm test 
+  264  ls
+  265  cp /home/klemenza/workspace/JenkinsDemo/* .
+  266  ls
+  267  ls -l
+  268  bash testng.xml 
+  269  bash run.sh 
+  270  cp /home/klemenza/workspace/JenkinsDemo/ .
+  271  ls
+  272  history 
+  273  history |grep path
+  274  export PATH=$PATH:set classpath=/home/klemenza/workspace/JenkinsDemo/lib/*;/home/klemenza/workspace/JenkinsDemo
+  275  export PATH=$PATH;set classpath=/home/klemenza/workspace/JenkinsDemo/lib/*;/home/klemenza/workspace/JenkinsDemo
+  276  set classpath=/home/klemenza/workspace/JenkinsDemo/lib/*;/home/klemenza/workspace/JenkinsDemo
+  277  export PATH=$PATH:/home/klemenza/workspace/JenkinsDemo/lib/*:/home/klemenza/workspace/JenkinsDemo
+  278  bash run.sh 
+  279  export CLASSPATH=$CLASSPATH:/usr/lib/jenkins/
+  280  pwd
+  281  export CLASSPATH=$CLASSPATH:/var/lib/jenkins/workspace/
+  282  echo CLASSPATH
+  283  echo $CLASSPATH
+  284  bash run.sh
+  285  nano $PATHNAME
+  286  nano $CLASSPATH
+  287  nano CLASSPATH
+  288  ls
+  289  bash run.sh
+  290  nano run.sh
+  291  java -cp bin:lib/* org.testng.TestNG testng.xml
+  292  java -cp bin:lib/* org.testng.TestNG /home/klemenza/workspace/JenkinsDemo/testng.xml
+  293  java -cp bin:lib/* /home/klemenza/workspace/JenkinsDemo/lib/org.testng.TestNG /home/klemenza/workspace/JenkinsDemo/testng.xml
+  294  cd ..
+  295  ls
+  296  cd ..
+  297  ls
+  298  pwd
+  299  ls -l
+  300  history 
+  301  history > /home/klemenza/Desktop/oldhistory.txt
+  302  export PATH=$PATH:/usr/java/jdk1.6.0_17/bin

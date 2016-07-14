@@ -1,0 +1,39 @@
+i   - instert mode
+esc - command mode
+yy  - copy lines
+4yy - copy 4 lines
+p   - paste
+dd  - delete a line
+4dd - delete 4 lines
+.   - repeat the last action
+h   - left
+l   - right
+j   - up 
+l   - down
+:%s/text/text1/g - to change a specified text 
+:3  - go to line number 3
+:$  - go to the last line
+G   - go to the last line
+$   - go to the end of the line
+0   - move the cursor to the beginning of the line
+:0  - go to the first line
+:r  - plus the name of the file - to read a current file
+u   - undo
+:?  - search text
+n   - next word from the searched text
+:wq - save and exit
+:w  - save
+:q  - exit
+:w! - save
+:wq!- save and exit
+:q! - exit
+
+
+
+ctrl shift c - copy text in bash
+ctrl shift v - paste text in bash
+
+man command 
+	?search text
+	N - previous
+	n - next
