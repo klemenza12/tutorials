@@ -1,6 +1,14 @@
-ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
-eval "$(ssh-agent -s)"
-if the ssh key is new skip this step ssh-add ~/.ssh/id_rsa
+linux
+	ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+	eval "$(ssh-agent -s)"
+windows
+	If you are using Git Bash, turn on ssh-agent:
+		eval "$(ssh-agent -s)"
+	If you are using another terminal prompt, such as Git for Windows
+		eval $(ssh-agent -s)
+
+if the ssh key is new skip the next step
+	 ssh-add ~/.ssh/id_rsa
 ls -al ~/.ssh
 ssh -T git@github.com
 
