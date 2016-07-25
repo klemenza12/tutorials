@@ -1,0 +1,9 @@
+if we want to use the build in database "java  db"
+we need to copy the file from cd /usr/java/jdk1.6.0_17/db/lib/derby.jar
+to a directory cd /usr/lib/java-1.8.0/ 
+than we need to iclude it in eclipse
+we will find also in this directory mysql-connector-java-5.1.39-bin.jar
+which had to be included also if we want to use mysql library 
+
+
+
