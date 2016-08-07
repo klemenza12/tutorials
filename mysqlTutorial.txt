@@ -1,0 +1,11 @@
+mysql
+CREATE DATABASE onlineide;
+show databases;
+use applications;
+show tables;
+drop table applications;
+create table applications (id INT NOT NULL AUTO_INCREMENT, name VARCHAR(255) NOT NULL, price DOUBLE, PRIMARY KEY (id));
+insert into applications (name, price) values ("Tic Tac Toe", 0.99);
+select * from applications;
+insert into applications (name, price) values ("To Do List", 1.99);
+select * from applications;
