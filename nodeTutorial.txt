@@ -1,0 +1,31 @@
+downloading nodejs
+normal installation
+win 	 - node enter a=4 b=55 c=a+b
+create a new folder in c  nodeapps
+create server.js
+		paste 	var connect = require('connect');
+				var port = 3000;
+				connect.createServer(
+						connect.static(__dirname)
+				).listen(port);
+				console.log("connected via port"+port);
+in the directory of nodeapps oper git bash and enter node server.js
+npm install connect
+if there is a problem install this connect		
+npm install connect@2.X.X
+oper localhost:3000/serve.js
+create another file index.html
+put something there
+and open localhost:3000/index.html
+
+create a testapp directory 
+create app.js
+enter there with git bash 
+enter npm init
+hit only enter and you will see package json in testapp directory
+open package.json and add under main
+			"main": "app.js",
+			"dependencies":{
+				"jade":"*",
+				"stylus":"*"
+			},
