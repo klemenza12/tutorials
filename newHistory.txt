@@ -1,0 +1,1000 @@
+    9  netstat -natup |grep 62244
+   10  telnet 127.0.0.1 8005
+   11  yum install telnet
+   12  telnet 127.0.0.1 8005
+   13  top | grep jenkins
+   14  netstat -natup |grep 2890
+   15  top | grep tomcat
+   16  netstat -natup |grep 62244
+   17  service tomcat reload
+   18  service tomcat restart
+   19  nano /etc/systemd/system/tomcat.service
+   20  cat /etc/passwd
+   21  ls
+   22  cd bin/
+   23  bin startup.sh 
+   24  bash startup.sh 
+   25  echo $JAVA_HOME 
+   26  echo $CATALINA_HOME 
+   27  export CATALINA_HOME=/opt/tomcat
+   28  echo $CATALINA_HOME 
+   29  bash startup.sh 
+   30  top |grep tomcat
+   31  nestat -natup |grep 63943
+   32  netsat -natup |grep 63943
+   33  netstat -natup |grep 63943
+   34  links
+   35  yum install links
+   36  links 127.0.0.1:8005
+   37  netstat -natup |grep 63943
+   38  kill -9 63943
+   39  cd /opt/tomcat/conf/
+   40  ls
+   41  nano server.xml
+   42  service tomcat stop
+   43  netstat -natup |grep 63943
+   44  sh -c "echo 1 > /proc/sys/net/ipv6/conf/all/disable_ipv6"
+   45  if eth0 down; stop
+   46  if eth0 down; ;
+   47  if down eth0; 
+   48  ifconfig
+   49  service tomcat start
+   50  service tomcat start
+   51  top | grep tomcat
+   52  netstat -natup |grep 65255
+   53  java -version
+   54  cd ..
+   55  ./bin/startup.sh 
+   56  service jenkins stop
+   57  service tomcat restart
+   58  top |greptomcat
+   59  top |grep tomcat
+   60  netstat -natup | grep 895
+   61  service jenkins start
+   62  top |grep jenkins
+   63  top |grep jenkins
+   64  top | grep jenkins
+   65  service jenkins start
+   66  top | grep jenkins
+   67  netstat -natup | grep 1883
+   68  netstat -natup
+   69  top | grep jenkins
+   70  top | grep jenkins
+   71  service jenkins reload
+   72  top | grep jenkins
+   73  netstat -natup | grep jenkins
+   74  netstat -natup | grep 4365
+   75  netstat -natup
+   76  java -jar jenkins.war --httpsPort=9090
+   77  cd /home/
+   78  ls
+   79  cd klemenza/
+   80  ls
+   81  cd Desktop/
+   82  ls
+   83  where jenkins
+   84  which jenkins
+   85  find /jenkins
+   86  find / jenkins
+   87  jenkins
+   88  nano /etc/sysconfig/jenkins 
+   89  service jenkins reastart
+   90  service jenkins restart
+   91  top |gerp jenkins
+   92  top |grep jenkins
+   93  top |grep jenkins
+   94  service jenkins stop
+   95  top | grep jenkins
+   96  service jenkins start
+   97  top
+   98  service jenkins start
+   99  top | grep jenkins
+  100  top | grep jenkins
+  101  top | grep jenkins
+  102  nestat 
+  103  netstat -natup
+  104  nano /etc/sysconfig/jenkins 
+  105  service jenkins stop
+  106  service jenkins start
+  107  top | grep jenkins
+  108  ls
+  109  find / -name "jenkins"
+  110  find / -name "jenkins*"
+  111  ls -l /usr/lib/jenkins/jenkins.war 
+  112  ln -l /opt/tomcat/webapps/jenkins.war /usr/lib/jenkins/jenkins.war 
+  113  ln -<s /opt/tomcat/webapps/jenkins.war /usr/lib/jenkins/jenkins.war 
+  114  ln -s /opt/tomcat/webapps/jenkins.war /usr/lib/jenkins/jenkins.war 
+  115  mv /usr/lib/jenkins/jenkins.war /opt/tomcat/webapps/
+  116  cd
+  117  ls
+  118  service tomcat stop
+  119  service tomcat start
+  120  export JENKINS_HOME=/opt/tomcat/webapps/jenkins
+  121  service tomcat stop
+  122  service tomcat start
+  123  service tomcat stop
+  124  cd ..
+  125  cd eclipse/
+  126  ls
+  127  ls
+  128  cd /home/klemenza/
+  129  cd workspace/
+  130  ls -l
+  131  ls -la
+  132  cd .metadata/
+  133  ls -la
+  134  cd .plugins/
+  135  ls
+  136  cd org.eclipse.core.runtime/
+  137  cd .settings/
+  138  ls
+  139  rm org.eclipse.jst.server.tomcat.core.prefs 
+  140  rm org.eclipse.wst.server.core.prefs 
+  141  cp /opt/tomcat/conf/* /home/klemenza/workspace/Servers/Tomcat\ v8.0\ Server\ at\ localhost-config/
+  142  cp /opt/tomcat/conf/* /home/klemenza/workspace/Servers/Tomcat\ v8.0\ Server\ at\ localhost-config/
+  143  y
+  144  y
+  145  y
+  146  y
+  147  y
+  148  y
+  149  y
+  150  y
+  151  y
+  152  cp /opt/tomcat/conf/* /home/klemenza/workspace/Servers/Tomcat\ v8.0\ Server\ at\ localhost-config/
+  153  cp -R /opt/tomcat/conf/* /home/klemenza/workspace/Servers/Tomcat\ v8.0\ Server\ at\ localhost-config/
+  154  cp -r /opt/tomcat/conf/* /home/klemenza/workspace/Servers/Tomcat\ v8.0\ Server\ at\ localhost-config/
+  155  man cp
+  156  cp -r /opt/tomcat/conf/* /home/klemenza/workspace/Servers/Tomcat\ v8.0\ Server\ at\ localhost-config/
+  157  cd /opt/tomcat/
+  158  ls -l
+  159  chmod -R a+rwx ./*
+  160  ls -l
+  161  service tomcat start
+  162  service tomcat stop
+  163  service tomcat start
+  164  service tomcat sstop
+  165  service tomcat stop
+  166  service tomcat start
+  167  rm -rf /opt/tomcat/webapps/testWeb/*
+  168  rm -rf /opt/tomcat/webapps/testWeb
+  169  service tomcat stop
+  170  service tomcat start
+  171  chmod -R a+rwx /opt/tomcat/webapps/testWeb/*
+  172  cd /opt/
+  173  cd tomcat/
+  174  ls
+  175  cd webapps/
+  176  ls
+  177  ls -la
+  178  systemctl stop service.tomcat
+  179  systemctl stop tomcat
+  180  /etc/init.d/tomcat stop
+  181  /etc/init.d/stop tomcat
+  182  find / -name "tomcat*"
+  183  /etc/systemd/system/tomcat.service stop
+  184  service tomcat stop
+  185  /bin/systemctl stop tomcat.service
+  186  service tomcat stop
+  187  top |grep tomcat
+  188  top |grep "tomcat"
+  189  top |grep "jenkins"
+  190  netstat -natup | grep 3051
+  191  service jnekins stop
+  192  service jenkins stop
+  193  netstat -natup | grep 3051
+  194  services tomcat start
+  195  service tomcat start
+  196  service tomcat stop
+  197  ls
+  198  java -jar Untitled.jar 
+  199  java -jar Untitled.jar 
+  200  ls -l
+  201  java -jar Untitled.jar 
+  202  java -jar Untitled.jar 
+  203  init 0
+  204  cat test.txt 
+  205  git pull
+  206  init 0
+  207  git clone https://www.github.com/klemenza12/JavaForDummies
+  208  links https://www.github.com/klemenza12/JavaForDummies/
+  209  git clone https://www.github.com/klemenza12/JavaForDummies
+  210  git clone http://www.github.com/klemenza12/JavaForDummies
+  211  git clone https://www.github.com/klemenza12/JavaForDummies
+  212  ls
+  213  cd /home/klemenza/workspace/JavaForDummies/
+  214  ls
+  215  cd ..
+  216  cd Desktop/
+  217  ls
+  218  java -jar TestForImport.jar 
+  219  java -jar Untitled.jar 
+  220  java -jar TestForImport.jar 
+  221  cd movies/
+  222  ks
+  223  ls
+  224  ls -l
+  225  cd ..
+  226  ls
+  227  cd testGit/
+  228  git pull
+  229  exit
+  230  ks
+  231  lss
+  232  ls
+  233  cd /home/klemenza/workspace/
+  234  ls
+  235  history
+  236  echo history > /home/klemenza/Desktop/testVi.txt
+  237  ls
+  238  cd ..
+  239  ls
+  240  cd Desktop/
+  241  vi testVi.txt 
+  242  vi 3 testVi.txt 
+  243  history > /home/klemenza/Desktop/testVi.txt
+  244  vi testVi.txt 
+  245  history > /home/klemenza/Desktop/testVi.txt
+  246  vi testVi.txt 
+  247  ifconfig 
+  248  ping 16.52.21.6
+  249  ping 192.168.246.1
+  250  ssh
+  251  ps -afux | grep "ssh"
+  252  top | grep ssf
+  253  top | grep ssh
+  254  netstat -natup | grep ssh
+  255  ssh root@192.168.89.123
+  256  ssh root@192.168.89.123:22
+  257  ssh root@127.0.0.1
+  258  ssh root@192.168.89.123
+  259  ipconfig
+  260  ifconfig
+  261  ssh klemenza@192.168.89.128
+  262  exit
+  263  ls
+  264  vi viTutorial.txt
+  265   and GNOME Terminal were written (I'm
+  266  vi viTutorial.txt
+  267  :update
+  268  ?update
+  269  update
+  270  /update
+  271  update
+  272  cd Desktop/
+  273  histiry grep | update
+  274  history grep | update
+  275  history grep | "update"
+  276  history | grep "update"
+  277  cat history
+  278  history
+  279  ls
+  280  man ls
+  281  vi viTutorial.txt
+  282  vi testVi.txt 
+  283  vi viTutorial.txt
+  284  vi testVi.txt 
+  285  vi viTutorial.txt
+  286  init 0
+  287  init 0
+  288  ls
+  289  cd Desktop/
+  290  ls
+  291  cd Movies/
+  292  ls
+  293  cd ..
+  294  pws
+  295  pwd
+  296  cd ..
+  297  ls
+  298  cd /home/klemenza/Desktop/
+  299  ls
+  300  java -jar Untitled.jar 
+  301  top | grep ssh
+  302  top | grep -bash
+  303  netstat -natup | grep -bash
+  304  netstat -natup | grep ssg
+  305  netstat -natup | grep ssf
+  306  netstat -natup | grep ssh
+  307  kill -9 4281
+  308  netstat -natup | grep ssh
+  309  ps -afux | grep ssh
+  310  ps -ax | grep ssh
+  311  top | grep 4844
+  312  ps -afux | grep ssh
+  313  ps -ax | grep ssh
+  314  kill -9 5029
+  315  ps -ax | grep ssh
+  316  kill -9 4844
+  317  ps -ax | grep ssh
+  318  kiil -9 9880
+  319  kill -9 9880
+  320  watch -n 1 date
+  321  watch -n 1 netstat -tnpa
+  322  watch -n 0.1 netstat -tnpa
+  323  mysql
+  324  mysqldump testDB > /home/klemenza/Desktop/testDb.sql
+  325  cd /home/klemenza/Desktop/
+  326  mkdir scripts
+  327  cd scripts/
+  328  vi mysqlDump.sh
+  329  mkdir #!/bin/bash
+  330  # Database credentials
+  331   user=""
+  332   password=""
+  333   host=""
+  334   db_name=""
+  335  # Other options
+  336   backup_path="/path/to/your/home/_backup/mysql"
+  337   date=$(date +"%d-%b-%Y")
+  338  # Set default file permissions
+  339   umask 177
+  340  # Dump database into SQL file
+  341  mkdir mysqlBackup
+  342  vi mysqlDump.sh
+  343  bash mysqlDump.sh 
+  344  vi mysqlDump.sh
+  345  cd ..
+  346  ls -l
+  347  cd scripts/
+  348  ls -l
+  349  chown -R klemenza mysqlBackup/ 
+  350  ls -l
+  351  cd mysqlBackup/
+  352  ls -l
+  353  chmod 700 testDB-12-Jul-2016.sql 
+  354  ls -l
+  355  chgrp klemenza testDB-12-Jul-2016.sql 
+  356  ls -l
+  357  chmod 070 testDB-12-Jul-2016.sql 
+  358  ls -l
+  359  chmod 770 testDB-12-Jul-2016.sql 
+  360  chmod 777 testDB-12-Jul-2016.sql 
+  361  cd ..]
+  362  cd ..
+  363  chown -R klemenza scripts/*
+  364  chown -R klemenza scripts/
+  365  cd scripts/
+  366  ls
+  367  ls -l
+  368  chown klemenza mysqlBackup/
+  369  ls -l
+  370  chmod u+x *
+  371  ls -l
+  372  cd mysqlBackup/
+  373  ls -l
+  374  chmod 177 testDB-12-Jul-2016.sql 
+  375  chown root testDB-12-Jul-2016.sql 
+  376  chgrp root testDB-12-Jul-2016.sql 
+  377  ls -l
+  378  chgrp klemenza testDB-12-Jul-2016.sql 
+  379  ls -l
+  380  chgrp root testDB-12-Jul-2016.sql 
+  381  ls -l
+  382  chmod 772 testDB-12-Jul-2016.sql 
+  383  ls -l
+  384  chmod 771 testDB-12-Jul-2016.sql 
+  385  chmod 774 testDB-12-Jul-2016.sql 
+  386  cd ..
+  387  vi mysqlDump.sh 
+  388  bash mysqlDump.sh 
+  389  mysql 
+  390  cd mysqlBackup/
+  391  mysqldump testDB < testDB-12-Jul-2016.sql 
+  392  mysqldump testDB < testDB-12-Jul-2016.sql
+  393  mysql 
+  394  mysqldump testDB < testDB-12-Jul-2016.sql
+  395  mysql 
+  396  mysqldump testDB<testDB-12-Jul-2016.sql
+  397  mysql testDB < testDB-12-Jul-2016.sql 
+  398  mysql 
+  399  vi ../mysqlDump.sh 
+  400  export $PATH = PATH:/home/klemenza/Desktop/scripts
+  401  export $PATH=PATH:/home/klemenza/Desktop/scripts
+  402  export PATH=$PATH:/home/klemenza/Desktop/scripts
+  403  echo $PATH 
+  404  cd ..
+  405  mysqlDump.sh 
+  406  cd mysqlBackup/
+  407  ls -l
+  408  crontab -e
+  409  vi /etc/crontab
+  410  watch -n 1 date
+  411  vi /etc/crontab
+  412  watch -n 1 date
+  413  vi /etc/crontab
+  414  watch -n 1 date
+  415  vi /etc/crontab
+  416  watch -n 1 date
+  417  vi /etc/crontab
+  418  cd ..
+  419  ls
+  420  cd ..
+  421  ls
+  422  vi textTutorials.txt
+  423  vi /etc/crontab 
+  424  vi textTutorials.txt 
+  425  cd test
+  426  ls
+  427  ls -l
+  428  For repositories on GitHub, try:
+  429  git clone ssh://git@github.com/klemenza12/centOs6.git
+  430  git clone https://github.com/klemenza12/centOs6.git
+  431  ls
+  432  cd testGit/
+  433  vi test.txt 
+  434  git status
+  435  git add test.txt
+  436  git status
+  437  git commit -a -m "test to see if i am able to upload"
+  438  git push
+  439  ls
+  440  ls -l
+  441  chmod  700 script1.sh 
+  442  ls -l
+  443  script1.sh
+  444  echo PATH
+  445  echo $PATH
+  446  la -kla
+  447  vi /home/klemenza/.bash_profile 
+  448  export PATH
+  449  echo $PATH
+  450  vi /home/klemenza/.bash_profile 
+  451  echo $PATH
+  452  export PATH
+  453  echo $PATH
+  454  source ~/.bash_profile
+  455  echo $PATH
+  456  source ~/.bashrc
+  457  echo $PATH
+  458  reboot
+  459  ls
+  460  cd /home/klemenza/Desktop/
+  461  ls
+  462  ls -l
+  463  startx
+  464  ls
+  465  sh
+  466  init 0
+  467  vi textTutorials.txt 
+  468  cat /home/klemenza/.bashrc 
+  469  cat /home/klemenza/.bash_profile 
+  470  echo $HOME
+  471  cat $JAVA
+  472  env
+  473  pritntenv
+  474  printenv
+  475  printenv | grep PATH
+  476  printenv | grep JAVA
+  477  printenv | grep HOME
+  478  printenv | grep jdk
+  479  echo $JAVA_HOME
+  480  export $JAVA_HOME
+  481  echo $JAVA_HOME
+  482  bash
+  483  bash
+  484  bash
+  485  cd ..
+  486  cd
+  487  ls
+  488  ls -la
+  489  cat .bashrc 
+  490  cat .bash_profile 
+  491  ls -l /dev/sd*
+  492  yum install ntfs
+  493  kill -9 10006
+  494  yum install ntfs
+  495  yum search ntfs
+  496  cd
+  497  cd /home/klemenza/Desktop/
+  498  ls
+  499  ls -l
+  500  chown klemenza textTutorials.txt 
+  501  scp root@localhost:/home/klemenza/Desktop/textTutorials.txt testSomething.txt
+  502  chown klemenza testSomething.txt 
+  503  init 0
+  504  git clone https://github.com/klemenza12/centOs6
+  505  cd
+  506  ls
+  507  ssh-keygen -t rsa -b 4096 -C "klemenza12@gmail.com"
+  508  eval "$(ssh-agent -s)"
+  509  clip < ~/.ssh/id_rsa.pub
+  510  ssh-keygen -t rsa -b 4096 -C "klemenza12@gmail.com"
+  511  eval "$(ssh-agent -s)"
+  512  clip < ~/.ssh/id_rsa.pub 
+  513  clip < ~/.ssh/id_rsa.pub
+  514  vi ~/.ssh/id_rsa.pub
+  515  pwd
+  516  cd .ssh/
+  517  pwd
+  518  cd
+  519  pwd
+  520  cd /home/
+  521  cd klemenza/
+  522  cd Desktop/
+  523  ls
+  524  cd test/
+  525  git clone https://github.com/klemenza12/centOs6
+  526  vi ~/.ssh/id_rsa.pub
+  527  sst -T git@github.com
+  528  ssh -T git@github.com
+  529  git clone https://github.com/klemenza12/centOs6
+  530  git clone --bare centOs6  ssh://klemenza12@github.com:/GitRepos/centOs6.git 
+  531  sst -T git@github.com
+  532  git clone https://github.com/klemenza12/centOs6
+  533  git clone http://github.com/klemenza12/centOs6
+  534  git clone http://github.com/klemenza12/centOs6.git
+  535  git clone https://github.com/klemenza12/centOs6.git
+  536  git clone git@github.com:klemenza12/centOs6.git
+  537  git clone https://github.com/klemenza12/centOs6.git
+  538  ls -l
+  539  cd ..
+  540  ls
+  541  pw
+  542  pwd
+  543  ls -l
+  544  links novini.bg
+  545  rm -rf tutorials/
+  546  git clone git@github.com/klemenza12/tutorials.git
+  547  git clone git@github.com:klemenza12/tutorials.git
+  548  ls -l
+  549  cd tutorials/
+  550  ls -l
+  551  chown klemenza ./*
+  552  ls -l
+  553  cd ..
+  554  ls
+  555  ls -;
+  556  ls -l
+  557  chown klemenza ./tutorials/
+  558  cd tutorials/
+  559  cd tomcatInstallation/
+  560  ls -l
+  561  chown klemenza ./*
+  562  ls -l
+  563  cd ..
+  564  ls
+  565  vi gitTutorial
+  566  ls
+  567  vi gitTutorial.txt
+  568  git add .
+  569  git commit -a -m "the new git tutorial"
+  570  git push
+  571  git status
+  572  vi gitTutorial.txt
+  573  git add .
+  574  git commit -a -m "the new git tutorial"
+  575  git push
+  576  vi gitTutorial.txt
+  577  git add .
+  578  git commit -a -m "the new git tutorial"
+  579  git push
+  580  ls
+  581  ls -l
+  582  chown klemenza  gitTutorial.txt
+  583  ls -l
+  584  cd ../workspace/JavaForDummies/
+  585  git pull
+  586  chown klemenza ./* 
+  587  chown -R klemenza ./* 
+  588  cd /home/klemenza/Desktop/
+  589  rm -rf testGit/
+  590  ln -s /home/klemenza/workspace/ ./workspace
+  591  cd /home/klemenza/workspace/JavaForDummies/
+  592  ls
+  593  git pull
+  594  ls
+  595  git pull
+  596  ls
+  597  cd ..
+  598  ls
+  599  cd JavaForDummies/
+  600  ls
+  601  ls l-la
+  602  ls -la
+  603  git pull
+  604  git status
+  605  git pull
+  606  init 6
+  607  clear
+  608  ls /
+  609  ls /opt/
+  610  ls /opt/tomcat/
+  611  cd /home/klemenza/Desktop/
+  612  ls
+  613  ls eclipse
+  614  ls eclipse/configuration/
+  615  cd eclipse/configuration/
+  616  ls
+  617  less org.eclipse.e4.ui.css.swt.theme/
+  618  cd org.eclipse.e4.ui.css.swt.theme/
+  619  ls
+  620  cd ..
+  621  ls -alt
+  622  cd org.eclipse.e4.ui.css.swt.theme/
+  623  ls
+  624  cd ..
+  625  ls org.eclipse.e4.ui.css.swt.theme/ -alt
+  626  ls .settings/
+  627  clear
+  628  systemctl set-default multi-user.target 
+  629  reboot now
+  630  systemctl set-default graphical.target 
+  631  reboot 
+  632  passwd 
+  633  clear
+  634  exit
+  635  su - 
+  636  exit
+  637  init 6
+  638  systemctl set-default graphical.target
+  639  init 6
+  640  cd /usr/java/jdk1.6.0_17/db/lib/
+  641  ls
+  642  history
+  643  cd /usr/lib/java-1.8.0/
+  644  ls
+  645  cp ./* /home/klemenza/Desktop/tutorials/
+  646  ls
+  647  git pull
+  648  ls
+  649  cd ..
+  650  ls
+  651  cd workspace/
+  652  ls
+  653  cd JavaForDummies/
+  654  ls
+  655  git pull
+  656  mkdir onlineide
+  657  cd onlineide
+  658  ls
+  659  git clone http://www.github.com/klemenza12/onlineide
+  660  git clone http://www.github.com/klemenza12/onlineide.git
+  661  git clone git@github.com:klemenza12/onlineIde.git
+  662  ls
+  663  pwd
+  664  mv onlineIde/* ../
+  665  rm -rf onlineIde
+  666  ls
+  667  cd ..
+  668  rm onlineide
+  669  rm -rf onlineide
+  670  cd ..
+  671  ls
+  672  mkdir onlineide
+  673  cd onlineide/
+  674  git clone git@github.com:klemenza12/onlineIde.git
+  675  ls
+  676  cd onlineIde/
+  677  mv * ../ 
+  678  cp * ../
+  679  cd ..
+  680  ls
+  681  git status
+  682  mv onlineIde/* 
+  683  mv onlineIde/* ~klemenza/workspace/onlineide/
+  684  mv onlineIde/.* ~klemenza/workspace/onlineide/
+  685  cd ..
+  686  ls
+  687  cd onlineide/
+  688  git status
+  689  cd ~/Desktop/
+  690  ls
+  691  cd Movies/
+  692  ls
+  693  rm -rf ../Movies/
+  694  ls
+  695  pwd
+  696  cd ..
+  697  ls
+  698  cd ..
+  699  ls
+  700  cd Desktop/
+  701  ls
+  702  cd ..
+  703  cd ..
+  704  cd
+  705  cd ..
+  706  cd
+  707  cd ..
+  708  cd ~
+  709  ls
+  710  cd
+  711  cd
+  712  cd ..
+  713  cd
+  714  pws
+  715  pwd
+  716  cd ../
+  717  ls
+  718  cd home/
+  719  ls
+  720  cd klemenza/Desktop/
+  721  cd centOs6/
+  722  ls
+  723  git pull
+  724  cd ..
+  725  cd tutorials/
+  726  ls
+  727  git pull
+  728  service tomcat stop
+  729  service tomcat start
+  730  history | grep jenkins
+  731  ln -l /opt/tomcat/webapps/ /home/klemenza/Desktop/webServiceAdapters
+  732  ln -s /opt/tomcat/webapps/ /home/klemenza/Desktop/webServiceAdapters
+  733  mysql
+  734  git status
+  735  git add ..
+  736  git add .
+  737  git commit -a -m "09/08/2016"
+  738  git push
+  739  git status
+  740  ifconfig
+  741  dhclient
+  742  iptables -F
+  743  ifconfig
+  744  git pull
+  745  ls
+  746  cd ../tutorials/
+  747  ls
+  748  git pull
+  749  git status
+  750  git add .
+  751  git commit -a -m "23/08/2016"
+  752  git push
+  753  mkdir windowsDB
+  754  chown klemenza windowsDB/
+  755  git add .
+  756  git commit -a -m "23/08/2016"
+  757  git push
+  758  cd ..
+  759  dir
+  760  git clone git@github.com:klemenza12/stuff.git
+  761  chown klemenza stuff
+  762  chown -R  klemenza stuff
+  763  git pull
+  764  cd stuff/
+  765  git pull
+  766  git pull
+  767  service tomcat stop
+  768  service jenkins stop
+  769  service tomcat start
+  770  ps -afux | grep tomcat
+  771  top | grep tomcat
+  772  ps
+  773  ps -ax
+  774  ps
+  775  ps -afux
+  776  tomcat start
+  777  /etc/init.d/start tomcat
+  778  /etc/init.d/tomcat start
+  779  systemctl start tomcat
+  780  systemctl stop tomcat
+  781  ping www.google.bg
+  782  cd ..
+  783  java testOO.jar 
+  784  java -jar testOO.jar 
+  785  java -jar testOO.jar 
+  786  java -jar ContentPacks-cp-1.0.16.jar
+  787  java -jar testOO.jar 
+  788  cd workspace/
+  789  ls
+  790  cd testOO2/
+  791  ls
+  792  ls
+  793  cat testWithEclipse-cp-1.0.0.jar 
+  794  ls
+  795  ifconfig 
+  796  dhclient eth0
+  797  git pull
+  798  git pull
+  799  git pull
+  800  cd ..
+  801  ls
+  802  cd MysqlDB/
+  803  ls
+  804  git pull
+  805  cd ../onlineide/
+  806  ls
+  807  git pull
+  808  cd ..
+  809  ls
+  810  yum search mvn
+  811  kill -9 8937
+  812  yum search mvn
+  813  git pull
+  814  cd ../stuff/
+  815  ls
+  816  git pull
+  817  cd ../
+  818  ls
+  819  cd centOs6/
+  820  ls
+  821  ls
+  822  git pull
+  823  cd ..
+  824  cd workspace/
+  825  mkdir testMaven
+  826  service tomcat stop
+  827  systemctl stop tomcat
+  828  service jenkins stop
+  829  cd Servers/
+  830  chown -R klemenza ./*
+  831  mvn 
+  832  yum search mvn
+  833  yum search mvn
+  834  ps | grep 8757
+  835  kill -15 8757
+  836  ps | grep 8757
+  837  kill -9 8757
+  838  ps | grep 8757
+  839  yum install mvn
+  840  mvn --version
+  841  yum search mvn
+  842  dhclient eth0
+  843  ifconfig
+  844  dhclient eno16777736
+  845  dhclient virbr0
+  846  reboot
+  847  wget http://mirrors.giganet.com/apache/maven/maven-3/3.0.5/binaries/apache-maven-3.0.5-bin.tar.gz
+  848  tar -zxvf apache-maven-3.0.5-bin.tar.gz  -C /opt/*
+  849  tar -zxvf apache-maven-3.0.5-bin.tar.gz  -C /opt/
+  850  tar -zxvf apache-maven-3.0.5-bin.tar.gz /opt/*
+  851  tar -zxvf apache-maven-3.0.5-bin.tar.gz -C /opt/*
+  852  gzip
+  853  man gzip
+  854  gunzip apache-maven-3.0.5-bin.tar.gz /opt/*
+  855  -c tar -zxvf apache-maven-3.0.5-bin.tar.gz -C /opt/*
+  856  tar -zxvf apache-maven-3.0.5-bin.tar.gz -C /opt/*
+  857  tar -xvf apache-maven-3.0.5-bin.tar.gz -C /opt/*
+  858  tar -zxvf apache-maven-3.0.5-bin.tar.gz -C /opt/*
+  859  tar -zxvf apache-maven-3.0.5-bin.tar.gz -C /opt/*
+  860  man gzip
+  861  tar -xf apache-maven-3.0.5-bin.tar.gz /opt/*
+  862  tar -xvf apache-maven-3.0.5-bin.tar.gz /opt/*
+  863  tar -zxvf apache-maven-3.0.5-bin.tar.gz /opt/*
+  864  tar -zxvf apache-maven-3.0.5-bin.tar.gz /opt/*
+  865  tar -zxvf apache-maven-3.0.5-bin.tar.gz
+  866  wget http://mirrors.giganet.com/apache/maven/maven-3/3.0.5/binaries/apache-maven-3.0.5-bin.tar.gz
+  867  tar -zxvf apache-maven-3.3.9-bin.tar.gz -C /opt/*
+  868  tar -zxvf apache-maven-3.3.9-bin.tar.gz -C /opt/
+  869  cd /opt/
+  870  ls
+  871  cd apache-maven-3.3.9/
+  872  vi /etc/profile.d/maven.sh
+  873  cd /opt
+  874  ls
+  875  ls
+  876  ls -l
+  877  tar -z sdk-dotnet-10.60.zip /.m2/repository/
+  878  tar -zvf sdk-dotnet-10.60.zip /.m2/repository/
+  879  unzip sdk-dotnet-10.60.zip -d /.m2/repository/
+  880  unzip sdk-java-10.60.zip -d /.m2/repository/
+  881  mvn archetype:crawl
+  882  cd /.m2/repository/
+  883  mvn archetype:crawl
+  884  cat /profile.d
+  885  ls
+  886  cd ..
+  887  cd ..
+  888  cd
+  889  cd ..
+  890  ls
+  891  cd cat /etc/profile.d/
+  892  cdcd /etc/profile.d/
+  893  ls
+  894  cd /etc/profile.d/
+  895  ls
+  896  JAVA_HOME=/usr/lib/jvm/jre-1.8.0-openjdk-1.8.0.71-2.b15.el7_2.x86_64/
+  897  vi java
+  898  mvn -version
+  899  mvn archetype:crawl
+  900  echo $HOME
+  901  ls .m2
+  902  ls /.m2
+  903  mkdir /.m2
+  904  cd /.m2/
+  905  pwd
+  906  mkdir repository
+  907  cd ..
+  908  cd
+  909  ls
+  910  cd Desktop/
+  911  ls
+  912  cd ../
+  913  cd ..
+  914  echo $JAVA_HOME
+  915  echo JAVA_HOME
+  916  which java
+  917  cat /etc/profile.d/java
+  918  vi /etc/profile.d/java 
+  919  eenv
+  920  env
+  921  which java
+  922  echo $JAVA_HOME
+  923  vi /etc/profile.d/java 
+  924  vi /etc/profile.d/maven.sh 
+  925  echo $JAVA_HOME
+  926  mvn archtype:crawl
+  927  cd /.m2/repository/
+  928  mvn archtype:crawl
+  929  mvn archtype:crawl
+  930  mvn archtype:crawl
+  931  mvn archtype:crawl
+  932  mvn archtype:crawl
+  933  reboot
+  934  cd /.m2/repository/
+  935  mvn archtype:crawl
+  936  mvn archtype:crawl
+  937  yum install -y ca-certificates-java && update-ca-certificates -f
+  938  mvn archtype:crawl
+  939  echo $maven
+  940  echo $PATH
+  941  mvn -version
+  942  mvn archtype:crawl
+  943  mvn archetype:crawl
+  944  iptables -F
+  945  mvn archetype:crawl
+  946  mvn archetype:crawl
+  947  mvn archetype:generate
+  948  iptables -f
+  949  iptables -F
+  950  mvn archetype:generate
+  951  ls
+  952  cd ..
+  953  ls
+  954  ls -l
+  955  mvn -X
+  956  mvn archetype:generate
+  957  echo $M2_HOME 
+  958  cat /opt/apache-maven-3.3.9/conf/settings.xml 
+  959  mvn archetype:carwl
+  960  mvn archetype:crawl
+  961  vi /opt/apache-maven-3.3.9/conf/settings.xml 
+  962  mvn archetype:crawl
+  963  vi /opt/apache-maven-3.3.9/conf/settings.xml 
+  964  mvn archetype:crawl
+  965  vi /opt/apache-maven-3.3.9/conf/settings.xml 
+  966  mvn archetype:crawl
+  967  vi /opt/apache-maven-3.3.9/conf/settings.xml 
+  968  mvn archetype:crawl
+  969  cd repository/
+  970  mvn archetype:crawl
+  971  mvn archetype:crawl
+  972  vi /opt/apache-maven-3.3.9/conf/settings.xml 
+  973  mvn archetype:crawl
+  974  vi /opt/apache-maven-3.3.9/conf/settings.xml 
+  975  mvn archetype:crawl
+  976  vi /opt/apache-maven-3.3.9/conf/settings.xml 
+  977  mvn archetype:crawl
+  978  vi /opt/apache-maven-3.3.9/conf/settings.xml 
+  979  mvn archetype:crawl
+  980  git pull
+  981  service tomcat start
+  982  cd /usr/lib/java-1.8.0/
+  983  lls
+  984  ls
+  985  touch test.txt
+  986  git add .
+  987  git status
+  988  git rm test.txt
+  989  git pull
+  990  git push
+  991  git pull
+  992  git status
+  993  ifconfig
+  994  top
+  995  w
+  996  ifconfig
+  997  cd /etc/cron.d/
+  998  ls
+  999  cd ..
+ 1000  ls
+ 1001  cd /etc/
+ 1002  ls
+ 1003  ls -l
+ 1004  cd cron.d/
+ 1005  ls
+ 1006  histtory
+ 1007  history
+ 1008  history > /home/klemenza/Desktop/newHistory.txt
