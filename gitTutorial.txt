@@ -55,4 +55,8 @@ git remote add origin https://github.com/klemenza12/test.git
 git push -u origin master
 
 
+for delting stuff 
+git rm text.txt
+git add .
+git status
 
