@@ -25,6 +25,8 @@ chown -R klemenza:klemenza SdkManager
 chown -R klemenza:klemenza /opt/android-sdk_r24.4.1-linux/
 chown -R klemenza:klemenza /opt/android-sdk
 chmod 777 /opt/android-sdk_r24.4.1-linux/
+how to run the SdkManager 
+	just ./SdkManager
 
 download appcompat from internet on your desktop
 open eclipse import android project and show appcompat
