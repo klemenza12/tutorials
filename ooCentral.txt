@@ -40,5 +40,7 @@ fi
 
 chmod 777 choose.sh
 ln -s /opt/hpe/oo/central/bin/central/choose /etc/ini.d/hpeCentral
-
+vi /etc/rc.local
+iptables -F
+/opt/hpe/oo/central/bin/choose
 for uninstalling /opt/hpe/oo/uninstall
