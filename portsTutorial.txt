@@ -1,0 +1,12 @@
+lsof -i - all runnig processes
+netstat -lptu - it gives you key id, process id, programm name
+netstat -tulpn - it will give you the same plus port number
+
+netstat -tulpn | less    - the same as the before
+lsof -i :22 	- to see which process is bound to port 22	
+ls -l /proc/1786/exe	-	to find out where is the process bounded to port 22 (1786 is the pid)
+whatis mysqld	- it returns the "Mysql server"
+
+
+
+

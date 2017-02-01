@@ -6,3 +6,7 @@ for i in {1..100}; do echo http://www.example.com/${i}.jpg; done
 ln -s /opt/tomcat/webapps/ /home/klemenza/Desktop/webServiceAdapters
 java -jar Untitled.jar
 scp root@16.52.21.67:/home/klemenza/Downloads/eclipse.tar.gz /home/klemenza/Desktop/
+find /usr/include/ -name slang.h
+ctrl+r - to search in history file
+rsync -av /home/klemenza/Desktop/test.txt klemenza@localhost:/home/klemenza/Downloads/
+

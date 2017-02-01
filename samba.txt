@@ -1,0 +1,2 @@
+mount -t cifs -o username=klemenza,password=thepass //192.168.1.148/Users /home/klemenza/Desktop/test
+umount /home/klemenza/Desktop/test

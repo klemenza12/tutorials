@@ -1,0 +1,25 @@
+curl --silent --location https://rpm.nodesource.com/setup | bash -
+yum -y install nodejs
+yum install gcc-c++ make
+node -v
+mkdir /home/klemenza/nodeTest
+
+vi app.js
+var connect = require('connect');
+var port = 3000;
+connect.createServer(connect.static(__dirname)).listen(port);
+console.log('Connected via port 3000');
+
+npm install connect@2.X.X
+node app.js
+http://localhost:3000
+
+mkdir nodeapps
+vim app.js
+npm init
+vi package.json
+"main": "index.js",
+  "dependencies": {
+	"jade":"*",
+	"stylus":"*"
+  },

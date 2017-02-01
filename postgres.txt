@@ -1,0 +1,23 @@
+vi /var/lib/pgsql/9.6/data/pg_hba.conf
+host    all             all             0.0.0.0/0               md5
+vi /var/lib/pgsql/9.6/data/postgresql.conf
+listen_addresses = '*' 
+port = 5432  
+
+\c connect
+\q quit
+\l list databases
+\du list users
+\h sql help
+psql -U admin oodb
+psql -d template1
+CREATE DATABASE gogasca WITH OWNER gogasca ENCODING 'UTF8';
+CREATE DATABASE jerry;
+GRANT ALL PRIVILEGES ON DATABASE jerry to tom;
+\password user
+DROP DATABASE oodb;
+DROP ROLE admin;
+psql -h 192.168.1.110 -U postgres template1
+
+
+

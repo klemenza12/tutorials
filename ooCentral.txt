@@ -1,0 +1,30 @@
+download commmunity-installer-linux64.bin
+install postgresql
+confugre postgresql according to the postgres tutorial
+check connectivity with third provider(pgadmin)
+check out the firewall
+bash community-installer-linux64.bin
+when it comes the turn of the database connectivity
+enter create new schema
+localhost
+oodb
+admin
+pass 
+pass
+postgres
+pass
+check the connectivity
+/opt/hpe/oo/central/bin/central start
+/opt/hpe/oo/central/bin/central stop
+/opt/hpe/oo/central/bin/central restart
+http://192.168.1.110:8080/oo/#/reportsWorkspace/dashboard
+
+create new startup script 
+
+vi start.sh
+#!/bin/bash
+/opt/hpe/oo/central/bin/central start
+chmod 777 start.sh
+ln -s /opt/hpe/oo/central/bin/central/start.sh /etc/ini.d/hpeOOCentral
+
+for uninstalling /opt/hpe/oo/uninstall

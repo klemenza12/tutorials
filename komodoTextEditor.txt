@@ -1,0 +1,10 @@
+cd /opt/
+wget http://www.activestate.com/komodo-ide/downloads/edit/thank-you?dl=http://downloads.activestate.com/Komodo/releases/10.1.4/Komodo-Edit-10.1.4-17456-linux-x86_64.tar.gz
+tar xvf /opt/Komodo-Edit-8.0.1-12353-linux-x86.tar.gz
+cd Komodo.....
+./install.sh
+'/opt/komodo'
+vi /home/<user>/.bashrc 
+export PATH="/opt/komodo/bin:$PATH"
+source /home/<user>/.bashrc
+komodo 
