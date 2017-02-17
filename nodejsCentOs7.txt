@@ -1,0 +1,8 @@
+wget http://nodejs.org/dist/v0.10.30/node-v0.10.30.tar.gz
+tar xzvf wget node-v0.10.30.tar.gz 
+yum install gcc gcc-c++
+cd wget node-v0.10.30/
+./configure
+make
+make install
+node --version
