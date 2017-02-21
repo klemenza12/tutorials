@@ -1,0 +1,51 @@
+First we need to add additional place to vmware
+then log on the machine
+df -h
+fdisk -l
+fdisk /dev/sda
+m - help
+n
+p
+3
+enter	-	see the information from fdisk and decide from where to start
+enter	-	decide where to finish
+p	-	for printing table partition
+t	-	change the partition systems id
+3	-	for the current partition
+8e	-	for hex code
+p	-	print again the partition table
+w	-	for saving changes
+vgdisplay
+lvdisplay	-	to see the volume group name and the free size
+pvdisplay
+pvcreate vg_centosbase /dev/sda3
+pvdisplay
+vgdisplay
+vgs
+vgextend vg_centosbase /dev/sd3
+vgs
+df -h
+lvextend -L+4.99G /dev/vg_centosbase/lv_var
+vgs
+lvdisplay
+resize2fs -p /dev/mapper/vg_centosshare-lv_var
+df -h
+
+  216  vgdisplay
+  217  lvdisplay
+  218  fdisk -l
+  219  pvdisplay
+  220  pvcreate vg00 /dev/sda4
+  221  pvdisplay
+  222  vgs
+  223  vgextend vg00 /dev/sda4
+  224  vgs
+  225  lvextend -L+181.50G /dev/vg00/lv_root
+  226  vgs
+  227  df -h
+  228  vgdisplay
+  229  lvdisplay
+  230  resize2fs -p /dev/mapper/vg00-lv_root
+  231  df -h
+  232  history
+
