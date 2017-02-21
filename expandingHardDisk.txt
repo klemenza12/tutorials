@@ -49,3 +49,4 @@ df -h
   231  df -h
   232  history
 
+fsadm resize /dev/mapper/centos-root	-	if resize2fs gave an error
