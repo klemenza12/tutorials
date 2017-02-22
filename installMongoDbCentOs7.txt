@@ -1,0 +1,13 @@
+curl -O https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-3.4.2.tgz
+tar -zxvf mongodb-linux-x86_64-3.4.2.tgz
+cd /opt
+mkdir -p mongodb
+cp -R -n mongodb-linux-x86_64-3.4.2/ /opt/mongodb
+add this line to bash_profile export PATH=/opt/mongodb/mongodb-linux-x86_64-amazon-3.4.2/bin/:$PATH
+vim ~/.bash_profile the home directory ot the current user or we can use  /home/user/.bash_profile
+mkdir -p /data/db
+and give permissions to the current user
+type mongod to start the service
+
+If you do not use the default data directory (i.e., /data/db), specify the path to the data directory using the --dbpath option:
+mongod --dbpath <path to data directory>
