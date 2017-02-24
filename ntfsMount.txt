@@ -1,0 +1,10 @@
+yum install epel-release
+yum install ntfs-3g
+dmesg
+lsusb
+fisk -l
+mkdir /tmp/flashka
+ntfs-3g /dev/sdb1 /tmp/flashka
+cd /tmp/flashka
+du -h
+ls -l --block-size=M

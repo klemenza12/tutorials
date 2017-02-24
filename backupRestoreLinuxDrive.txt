@@ -1,0 +1,5 @@
+mount the device before the operation
+dd if=/dev/sda conv=sync,noerror bs=4096 |gzip -c > /tmp/flashka/CentOs7MinBackup/backupCentos7.gz
+gunzip -c /tmp/flashka/CentOs7MinBackup/backupCentos7.gz | dd of=/dev/sda
+in our case it is the command below:
+gunzip -c /run/media/klemenza/7C5E0DF15E0DA4CC/CentOs7MinBaskup/backupCentOs7.gz | dd of=/dev/sda
