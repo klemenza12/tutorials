@@ -1,0 +1,7 @@
+yum install docker
+service docker start
+chkconfig docker on
+docker info
+docker version
+service docker restart
+docker ps
