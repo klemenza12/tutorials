@@ -5,3 +5,40 @@ docker info
 docker version
 service docker restart
 docker ps
+docker run -i busybox
+docker run hello-world
+docker run -it busybox
+docker ps
+ctrl p q - if we want to exit without killing the docker process
+docker run -d busybox - to retrieve the container id of the current docker
+docker run -itd busybox 
+docker ps --no-trunc=true
+cid=$(docker run -itd busybox)
+echo $cid
+docker inspect 01d1bb37823db04b24dffc2653b32c076676965cfa1d9e8262a13cd795b328d7
+docker stop $cid
+docker run --name john1 -itd busybox
+docker ps
+docker stop john1
+docker kill $(docker ps -q)
+docker ps
+docker ps -a
+docker rm john1
+docker ps -a
+docker rm $(docker ps -aq) - if we want to delete all the dockers
+
+examples:
+docker run -it -v /john1 busybox
+ls
+cd john1
+touch file1
+ctrl p q
+docker ps
+docker restart 2835c0dcd6af
+docker exec 2835c0dcd6af ls /john1 - we can execute a process directly in the docker container
+docker run -it -v /john1 busybox if we want to run anothe instance
+docker images
+dicker inspect busybox
+docker history busybox
+
+
