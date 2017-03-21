@@ -41,4 +41,132 @@ docker images
 dicker inspect busybox
 docker history busybox
 
+//Tutorial Docker fundamentals, basics, storage, networking - Introduction to Docker
+apt-cache search docker.io
+apt-cache show docker.io
+we can open https://get.docker.com and see shell script
+we can also enter wget -qO- https://get.docker.com/ | sh
+usermod -aG docker klemenza - to put klemenza in the docker group
+id klemenza - to see if we are there
+we can find docker images in registry which is public
+https://registry.hub.docker.com - addres for searching and downloading images
+docker search mysql
+docker search ubuntu
+docker pull ubuntu - for downloading the current image
+the version we have pulled is the lates if we enter docker pull again
+docker pull ubuntu:latest
+without any other tag docker always pull the lates images
+if we want to download the specific version just enter 
+docker pull ubuntu:14:04
+docker images - to see all the images that we have
+docker run -it ubuntu:14:04 /bin/bash
+-t - it will atach a pseudo terminal and it will atach a console
+-i - interactive it will keek the stdin open
+whoami
+ls /
+we will see all the subdirectories
+top
+ctrl p q - quit from container without stopping it
+ps ax | grep top
+and we will see the process id 
+docker ps - if we want to see what docker container are running on the system
+docker attach container id / name
+docker attach ecstatic_hoover
+we will see that we are using the top
+exit - we will terminate the container
+docker ps
+docker ps -a - all the container the we have
+docker start ecstatic_hoover
+docker top - tells what king of applications run inside a container
+docker top ecstatic_hoover
+docker stop containerID - if we want to stop the container
+cd /var/lib/docker
+ls - we will see the containers sub-directory
+cd container
+ls - we will see the containers
+cd 589897231kljhdkshfahlfh2341
+ls - we will se the configuration files there
+cat  hostname
+these are same files what we can found in the running container
+docker run -it ubuntu:12.04 /bin/bash - if it can't find the current image it will try
+	to download it
+docker ps
+exit - if we are in the container
+docker run -d -ti --name=duck ubuntu:14.04 /bin/bash
+-ti - we are using it again to be able to atach to that conatainer later interactively
+-d - it starts the container in detached mode 
+--name - to give the container a special name
+docker stop duck - to stop the current conatainer providing a special name
+everything is lost if we stop the container - how to use s persistent storage
+we have to create a volume
+docker run -ti -v /data --name=duck2 ubuntu:14.04 /bin/bash
+-v volume we have to give mount point 
+ls -to see the directories in the current container
+cd data
+touch a 
+touch b
+touch 1
+touch 2
+ctrl p q
+cd /var/lib/docker/
+ls
+cd volumes
+ls
+cd 54354lk3j54;j2kl5;j;kj
+ls
+we will see undrelighned data
+cd _data
+ls
+and we will see the files we have created
+docker attach duck2
+rm -rf 1 a
+exit
+docker ps - to be sure that there are no containers running
+ls the same directory - we will see that there are missing files
+mkdir /srv/duck2 - new directory we want to attach to my container
+docker run -ti -v /srv/duck2:/data --name=duck3 ubuntu:14.04 /bin/bash
+ls /data
+cd data
+touch a b c
+ls
+exit
+ls /srv/duck2/
+a b c
+until now we have installed containers without network connection
+docker run -ti -d -p 3306 mysql - docker will look for the latest image from the docker hub
+-p port
+docker ps 
+it didnt run we forgot /bin/bash - after it will start the mysql image with a bin bash
+docker run -ti -d -p 3306 mysql /bin/bash 
+-p port
+docker ps - we will see the running container with mysql
+iptables -L -t nat - we will see that this local port will be forwarded to mysql conatainer port
+docker stop stoic_einstein
+we have to be sure that the same port is forwarded
+docker run -d -p 3306:3306 -ti mysql /bin/bash
+we will map 3306 to the specific port 3306 ot out system
+docker ps - everything which come like a request it will be forwarded to out system specific port
+ip addr show - to see all the interefaces in our system
+docker run -d -p 192.168.56.101:3306:3306 -ti mysql /bin/bash
+if we want ot open 3306 on that specific ip address
+docker attach stoic_stallman - to attach to mysql server
+ip addr
+we wiill see that eth0 i linked to one of our virtaul network interfaces
+
+
+ps -ax | grep mysql
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
