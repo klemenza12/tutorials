@@ -158,6 +158,8 @@ docker run -ti -d -v /srv/tmp:/data -p 3306:3306 --name=mysqlTest -e="MYSQL_ROOT
 mysql client - mysql -h 192.168.181.128 -u root -p
 if we forgot attach a bash on runnig machine we can simply enter
 docker exec -it mysqlTest /bin/bash
+docker instpect mysqlTest - to retrieve some info about docker containers
+docker logs mysqlTest - to see the logs 
 ps -ax | grep mysql
 
 
