@@ -153,7 +153,11 @@ docker attach stoic_stallman - to attach to mysql server
 ip addr
 we wiill see that eth0 i linked to one of our virtaul network interfaces
 
+docker run -ti -d -v /srv/tmp:/data -p 3306:3306 --name=mysqlTest -e="MYSQL_ROOT_PASSWORD=test" mysql
 
+mysql client - mysql -h 192.168.181.128 -u root -p
+if we forgot attach a bash on runnig machine we can simply enter
+docker exec -it mysqlTest /bin/bash
 ps -ax | grep mysql
 
 
