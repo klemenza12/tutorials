@@ -179,7 +179,7 @@ docker rmi b6b2fdb2e80c
 docker load -i ./saveContainer/mysqlContainer.tar
 docker run -ti -d -v /data/mysql:/var/lib/mysql -p 3306:3306 --name=mysqlTest -e="MYSQL_ROOT_PASSWORD=test" container2
 
-
+docker port mysqlTest 3306/tcp
 
 
 

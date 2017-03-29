@@ -1,0 +1,16 @@
+https://www.youtube.com/watch?v=7QXnk8emzOU
+apt-get install nginx
+vim /etc/nginx/nginx.conf
+to see the workers
+/etc/init.d/nginx restart
+apt-get install php7.0-fpm
+/etc/init.d/php7.0-fpm restart
+openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/nginx/ssl/nginx.key -out /etc/nginx/ssl/nginx.crt
+
+then we have to enter some info and use these paths in our nginx conf environm.
+and look in the directory of this tutorial for additional info.
+
+create a tar
+	tar -cvf www.rar /var/www/test
+untar
+	tar -xvf /tmp/www.tar -C /var/www/test
